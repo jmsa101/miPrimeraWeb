@@ -6,62 +6,62 @@
         <meta name="title" content="Sitio de Juan Manuel">
         <meta name="description" content="Este es mi primer sitio web">
         <link rel="stylesheet" href="./style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Qahiri&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> -->
     </head>
     <body>
         <!-- Aqui empieza el encabezado de mi pagina -->
         <header>
             <nav>
-                <ul>
-                    <li>
-                        <a href="#">Inicio</a>
+                <ul class="nav_Header">
+                    <li class="list-item_Header">
+                        <a class="link_Header" href="#">Inicio</a>
                     </li>
-                    <li>
-                        <a href="#">Contacto</a>
+                    <li class="list-item_Header">
+                        <a class="link_Header" href="#">Contacto</a>
                     </li>
-                    <li>
-                        <a href="#">Nosotros</a>
+                    <li class="list-item_Header">
+                        <a class="link_Header" href="#">Nosotros</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <!-- Aqui empieza el contenido principal de mi pagina -->
-        <main>
-            <article>
-                <h2>Título del artículo</h2>
-                <div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate ipsam cumque voluptate blanditiis exercitationem! Quo quas illum debitis odit totam placeat, commodi maiores veniam fugit facilis corporis quod velit! Temporibus.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui praesentium veritatis saepe. Odit in necessitatibus quos consequuntur similique blanditiis qui repellendus beatae reiciendis. Odit soluta cum quos vero accusantium debitis?
+        <main id="mainContent">
+            <article id="articleContent">
+                <h2 class="title_Article">Título del artículo</h2>
+                <div id="firstPart">
+                    <p class="text_Article">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate ipsam cumque voluptate blanditiis exercitationem! Quo quas illum debitis odit totam placeat, commodi maiores veniam fugit facilis corporis quod velit! Temporibus.</p>
+                    <p class="text_Article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui praesentium veritatis saepe. Odit in necessitatibus quos consequuntur similique blanditiis qui repellendus beatae reiciendis. Odit soluta cum quos vero accusantium debitis?
                     Molestiae, obcaecati dignissimos. Debitis, sit doloribus! At, ab rem vel alias sit non perferendis, nulla saepe adipisci ullam tempore optio? Sunt molestias illo pariatur molestiae expedita doloremque harum est. Id?
                     Sed fuga nostrum exercitationem, dolorum optio impedit perferendis consequuntur excepturi, saepe sunt deleniti necessitatibus error corporis veritatis. Voluptate eos beatae iure sed, quibusdam dolores voluptates deserunt deleniti quod voluptas nobis?</p>
                 </div>
-                <div>
-                    <h3>Subtítulo del artículo</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptatum eius! Architecto tenetur commodi sit nihil maxime, adipisci vel quisquam iusto inventore placeat voluptate labore. Minus debitis enim quia nam!</p>
-                    <img src="../assets/perrito.jpg" alt="cachorro sano">
+                <div id="secondPart">
+                    <h3 class="subtitle_Article">Subtítulo del artículo</h3>
+                    <p class="text_Article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptatum eius! Architecto tenetur commodi sit nihil maxime, adipisci vel quisquam iusto inventore placeat voluptate labore. Minus debitis enim quia nam!</p>
+                    <img class="image_Article" src="../assets/perrito.jpg" alt="cachorro sano">
                 </div>
             </article>
             <!-- Aqui comienza el menu lateral de mi pagina -->
             <aside>
-                <h3>Relacionado</h3>
-                <ul>
-                    <li>
-                        <a href="#">Me gustan los perritos</a>
+                <h3 class="title_Aside">Relacionado</h3>
+                <ul class="nav_Aside">
+                    <li class="list-item_Aside">
+                        <a class="link_Aside" href="#">Me gustan los perritos</a>
                     </li>
-                    <li>
-                        <a href="#">Me gustan los gatitos</a>
+                    <li class="list-item_Aside">
+                        <a class="link_Aside" href="#">Me gustan los gatitos</a>
                     </li>
-                    <li>
-                        <a href="#">Me gustan los caballos</a>
+                    <li class="list-item_Aside">
+                        <a class="link_Aside" href="#">Me gustan los caballos</a>
                     </li>
                 </ul>
             </aside>            
         </main>
         <!-- Aqui comienza el pie de pagina -->
         <footer>
-            <p>Copyright 2021. Juan Manuel Silva</p>
+            <p id="Copyright">Copyright 2021. Juan Manuel Silva</p>
         </footer>
     </body>
 </html>
